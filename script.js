@@ -70,7 +70,11 @@ async function loadProducts() {
         flatProducts = [];
         Object.keys(productsData).forEach(cat => {
             productsData[cat].forEach(prod => {
-                flatProducts.push(prod);
+                const productWithCategory = {
+                    ...prod,
+                    category: prod.category || cat
+                };
+                flatProducts.push(productWithCategory);
             });
         });
 
@@ -109,6 +113,7 @@ function renderProducts(category) {
         }
 
         const mainImage = (product.images && product.images.length > 0) ? product.images[0] : 'logoWhite.png';
+        const categoryLabel = product.category || category;
 
         card.innerHTML = `
             <div class="productCardImgWrap">
@@ -118,7 +123,7 @@ function renderProducts(category) {
             <p class="productCardName">${product.product_name}</p>
             <p class="productCardColorsLabel">${product.brand}</p>
             <p class="productCardPrice">₱ ${product.price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
-            <p class="productCardCategory">${product.category}</p>
+            <p class="productCardCategory">${categoryLabel}</p>
         `;
 
         // Open modal when card (not button) is clicked
@@ -234,7 +239,7 @@ function openProductModal(product) {
                 <span class="modalBrand">${product.brand}</span>
                 <span class="modalRating">${ratingStars} (${product.rating})</span>
             </div>
-
+            <p class="modalMeta">Category: ${product.category || 'Accessory'}</p>
             <p class="modalPrice">₱ ${product.price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
             
             <p class="modalDescription">${product.description}</p>
