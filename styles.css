@@ -1,0 +1,1737 @@
+/* ~~~~ CSS VARIABLES — edit these to retheme fast ~~~~ */
+:root {
+    --colorPrimary: #c400c4;
+    /* ~~~~ hot magenta — main brand color ~~~~ */
+    --colorPrimaryDark: #7a007a;
+    /* ~~~~ deep purple — darker variant ~~~~ */
+    --colorPrimaryLight: #f07af0;
+    /* ~~~~ soft pink — lighter card variant ~~~~ */
+    --colorAccent: #ff00ff;
+    /* ~~~~ pure neon for glows / highlights ~~~~ */
+    --colorBlack: #0a0a0a;
+    --colorWhite: #ffffff;
+    --colorGray100: #f5f5f5;
+    --colorGray200: #e0e0e0;
+    --colorGray500: #888888;
+    --colorGray800: #222222;
+
+    --fontDisplay: 'Bebas Neue', sans-serif;
+    /* ~~~~ big titles ~~~~ */
+    --fontBody: 'DM Sans', sans-serif;
+    /* ~~~~ everything else ~~~~ */
+
+    /* ~~~~ Font-size scale ~~~~ */
+    --fsXxl: clamp(4rem, 8vw, 7rem);
+    /* ~~~~ hero headline ~~~~ */
+    --fsXl: clamp(2.5rem, 5vw, 4rem);
+    /* ~~~~ section title ~~~~ */
+    --fsLg: clamp(1.5rem, 3vw, 2.2rem);
+    /* ~~~~ card title ~~~~ */
+    --fsMd: clamp(1.1rem, 1.8vw, 1.3rem);
+    /* ~~~~ body / label ~~~~ */
+    --fsSm: 1rem;
+    /* ~~~~ meta / caption ~~~~ */
+
+    --radiusCard: 18px;
+    --shadowCard: 0 4px 24px rgba(196, 0, 196, 0.15);
+    --transitionBase: 0.25s ease;
+}
+
+/* ~~~~ RESET & BASE ~~~~ */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--fontBody);
+    font-size: var(--fsMd);
+    color: var(--colorBlack);
+    background: var(--colorWhite);
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ~~~~ ANNOUNCEMENT BAR — the hot-pink ticker strip ~~~~ */
+.announcementBar {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    text-align: center;
+    padding: 1px 16px;
+    font-size: var(--fsSm);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    position: relative;
+    z-index: 100;
+    height: 22px;
+}
+
+/* ~~~~ NAV BAR ~~~~ */
+.navBar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+    background: rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    height: 80px;
+    gap: 16px;
+    margin-bottom: -80px;
+}
+
+/* ~~~~ Left — logo mark + brand name ~~~~ */
+.navBrand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.navLogoImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    object-fit: cover;
+
+    /* ~~~~ placeholder until src is filled ~~~~ */
+}
+
+.navBrandName {
+    font-family: var(--fontDisplay);
+    font-size: 2rem;
+    color: var(--colorWhite);
+    letter-spacing: 0.06em;
+    text-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+/* ~~~~ Center — nav links ~~~~ */
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+}
+
+.navLinks a {
+    color: var(--colorGray200);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 8px 18px;
+    border-radius: 6px;
+    transition: background var(--transitionBase), color var(--transitionBase);
+}
+
+.navLinks a:hover {
+    color: var(--colorWhite);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* ~~~~ "Our Products" gets the active pill ~~~~ */
+.navLinks .navLinkActive a {
+    background: #ff30ee;
+    color: var(--colorWhite);
+}
+
+/* ~~~~ Right — cart + login ~~~~ */
+.navActions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.navActions a {
+    color: var(--colorGray200);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color var(--transitionBase);
+}
+
+.navActions a:hover {
+    color: var(--colorAccent);
+}
+
+/* ~~~~ Hamburger — hidden on desktop ~~~~ */
+.navHamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 4px;
+}
+
+.navHamburger span {
+    width: 24px;
+    height: 2px;
+    background: var(--colorWhite);
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+/* ~~~~ Mobile nav drawer ~~~~ */
+.navMobileMenu {
+    display: none;
+    flex-direction: column;
+    background: var(--colorBlack);
+    padding: 16px 24px 24px;
+    gap: 12px;
+}
+
+.navMobileMenu a {
+    color: var(--colorGray200);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.navMobileMenu.isOpen {
+    display: flex;
+}
+
+.bigLogo {
+    position: absolute;
+    top: 27%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.bigLogoImg {
+    width: 21%;
+    height: auto;
+    position: center;
+    rotate: -20deg;
+}
+
+/* ~~~~ HERO SECTION — fullwidth carousel ~~~~ */
+
+/* ~~~~ Hero Title Flex Row for Accent Lines ~~~~ */
+.heroTitleRow {
+    display: flex;
+    align-items: center;
+    gap: clamp(16px, 3vw, 40px);
+    margin-right: calc(-1 * clamp(24px, 4vw, 60px));
+    margin-bottom: 4px;
+}
+
+/* ~~~~ Container to hold the right line so it can span to the right edge ~~~~ */
+.heroLineRightContainer {
+    flex-grow: 1;
+    position: relative;
+    height: 1px;
+    pointer-events: none;
+}
+
+/* ~~~~ Right thin line ~~~~ */
+.heroLineRight {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    max-width: 50vw;
+    /* ~~~~ Stops at most halfway across the page ~~~~ */
+    height: 2.5px;
+    background-color: var(--colorWhite);
+    opacity: 0.8;
+}
+
+
+
+.heroSection {
+    position: relative;
+    width: 100%;
+    height: 89vh;
+    overflow: hidden;
+    background: var(--colorBlack);
+}
+
+/* ~~~~ Carousel track — slides sit side by side ~~~~ */
+.heroCarouselTrack {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/* ~~~~ Each individual slide ~~~~ */
+.heroSlide {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.heroSlide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.heroSlide video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* ~~~~ White gradient overlay — sits above the image ~~~~ */
+.heroGradientOverlay {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    /* ~~~~ linear gradient: transparent at top, white at bottom ~~~~ */
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0) 30%,
+            rgba(255, 255, 255, 0.55) 70%,
+            rgba(255, 255, 255, 1) 100%);
+    pointer-events: none;
+}
+
+.heroContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    padding: clamp(24px, 4vw, 60px);
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroTagline {
+    font-size: var(--fsSm);
+    color: rgba(255, 255, 255, 0.75);
+    letter-spacing: 0.08em;
+    margin-bottom: 6px;
+}
+
+.heroTitle {
+    font-family: var(--fontDisplay);
+    font-size: clamp(5rem, 10vw, 9rem);
+    font-weight: 900;
+    color: var(--colorWhite);
+    line-height: 0.95;
+    margin-bottom: 0;
+    text-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+    position: relative;
+    flex-shrink: 0;
+}
+
+
+.heroTitle::before { /* ~~~~ Left thin lineeee po hehe~~~~ */
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100vw;
+    height: 2.5px;
+    background-color: var(--colorWhite);
+    margin-right: clamp(16px, 3vw, 40px);
+    opacity: 0.9;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+}
+
+.heroSubtitle {
+    font-family: var(--fontDisplay);
+    font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+    font-weight: 700;
+    color: var(--colorAccent);
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+}
+
+.heroDescription {
+    font-size: var(--fsSm);
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 340px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* ~~~~ Decorative horizontal rule with X marks — matches design ~~~~ */
+.heroDecorRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.heroDecorX {
+    font-size: 1rem;
+    color: var(--colorAccent);
+}
+
+.heroDecorLine {
+    flex: 1;
+    max-width: 120px;
+    height: 3px;
+    background: repeating-linear-gradient(90deg,
+            var(--colorAccent) 0px,
+            var(--colorAccent) 6px,
+            transparent 6px,
+            transparent 12px);
+}
+
+/* ~~~~ CTA button ~~~~ */
+.heroBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+    font-family: var(--fontBody);
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 14px 32px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: background var(--transitionBase), color var(--transitionBase), border-color var(--transitionBase), box-shadow var(--transitionBase);
+    width: fit-content;
+    margin-bottom: 12px;
+}
+
+.heroBtn:hover {
+    background: var(--colorAccent);
+    color: var(--colorWhite);
+}
+
+/* ~~~~ Small icon buttons below CTA ~~~~ */
+.heroIconRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.heroIconBtn {
+    width: 32px;
+    height: 32px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    color: var(--colorWhite);
+    cursor: pointer;
+    transition: border-color var(--transitionBase);
+}
+
+.heroIconBtn:hover {
+    border-color: var(--colorAccent);
+    color: var(--colorAccent);
+}
+
+/* ~~~~ Store address text ~~~~ */
+.heroAddress {
+    position: absolute;
+    bottom: clamp(12px, 2.5vw, 28px);
+    left: clamp(24px, 4vw, 60px);
+    z-index: 3;
+    font-size: 1.1rem;
+    font-weight: 450;
+    color: rgba(119, 119, 119, 0.85);
+}
+
+/* ~~~~ Partner brands — bottom right of hero ~~~~ */
+.heroPartners {
+    position: absolute;
+    bottom: clamp(12px, 3vw, 40px);
+    right: clamp(24px, 4vw, 60px);
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.heroPartnersLabel {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--colorBlack);
+    letter-spacing: 0.06em;
+}
+
+/* ~~~~ Partner logo row ~~~~ */
+.heroPartnerLogos {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.heroPartnerLogo {
+    height: 50px;
+    width: auto;
+    max-width: 140px;
+    object-fit: contain;
+    opacity: 0.9;
+    border-radius: 6px;
+    transition: opacity var(--transitionBase);
+}
+
+.heroPartnerLogo:hover {
+    opacity: 1;
+}
+
+/* ~~~~ Two small corner icon buttons — top-right of hero ~~~~ */
+.heroCornerIcons {
+    position: absolute;
+    top: clamp(12px, 2vw, 24px);
+    right: clamp(24px, 4vw, 60px);
+    z-index: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+}
+
+.heroCornerIcon {
+    width: 28px;
+    height: 28px;
+    border: 2px solid rgba(196, 0, 196, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(196, 0, 196, 0.2);
+    cursor: pointer;
+}
+
+/* ~~~~ Carousel controls ~~~~ */
+.heroCarouselControls {
+    position: absolute;
+    bottom: clamp(12px, 2.5vw, 28px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+    display: flex;
+    gap: 8px;
+}
+
+.heroDot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    border: none;
+    transition: background var(--transitionBase), transform var(--transitionBase);
+}
+
+.heroDot.isActive {
+    background: var(--colorAccent);
+    transform: scale(1.3);
+}
+
+/* ~~~~ Prev / next arrows ~~~~ */
+.heroArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: var(--colorWhite);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background var(--transitionBase);
+}
+
+.heroArrow:hover {
+    background: var(--colorPrimary);
+}
+
+.heroArrowPrev {
+    left: 16px;
+}
+
+.heroArrowNext {
+    right: 16px;
+}
+
+/* ~~~~ MICROGRAPHIC FRAMING — section dividers ~~~~ */
+
+/* ~~~~ Wrapper that sits between major sections ~~~~ */
+.framingDivider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px clamp(16px, 4vw, 48px);
+    pointer-events: none;
+}
+
+.framingLabel {
+    font-size: var(--fsSm);
+    color: var(--colorGray500);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* ~~~~ Section title row in the middle with arrow decorations ~~~~ */
+.framingSectionTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--fontDisplay);
+    font-size: var(--fsXl);
+    letter-spacing: 0.04em;
+}
+
+/* ~~~~ Small arrow decorations beside section titles ~~~~ */
+.framingArrow {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: var(--colorBlack);
+}
+
+.framingArrow::before {
+    content: '+ ';
+    font-size: 1rem;
+    color: var(--colorGray500);
+}
+
+.framingArrowRight::after {
+    content: ' +';
+    font-size: 1rem;
+    color: var(--colorGray500);
+}
+
+/* ~~~~ Small decorative graphic boxes on left/right of some rows ~~~~ */
+.framingGraphicBox {
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid var(--colorGray500);
+    position: relative;
+}
+
+.framingGraphicBox::after {
+    content: '↗';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.65rem;
+    color: var(--colorGray500);
+}
+
+/* ~~~~ BIKING ACCESSORIES CARDS SECTION ~~~~ */
+.accessoriesSection {
+    padding: 0 clamp(16px, 4vw, 48px) 32px;
+    background: var(--colorWhite);
+}
+
+/* ~~~~ 3-column grid for category cards ~~~~ */
+.accessoriesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    position: relative;
+}
+
+/* ~~~~ The two small icon buttons in the top-left of this section ~~~~ */
+.accessoriesIconGroup {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 12px;
+}
+
+.accessoriesIconBtn {
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--colorPrimary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    color: var(--colorPrimary);
+    cursor: pointer;
+}
+
+/* ~~~~ Individual category card ~~~~ */
+.categoryCard {
+    border-radius: var(--radiusCard);
+    overflow: visible;
+    /* ~~~~ allows image to overflow the top ~~~~ */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    /* ~~~~ space for the overflowing plant image ~~~~ */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.categoryCard:hover {
+    transform: scale(1.03);
+}
+
+/* ~~~~ Inner card body — the colored rectangle ~~~~ */
+.categoryCardBody {
+    width: 100%;
+    border-radius: var(--radiusCard);
+    padding: 80px 20px 24px;
+    /* ~~~~ top padding makes room for the image sticking out ~~~~ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+}
+
+.categoryCard:hover .categoryCardBody {
+    box-shadow: 0 15px 40px rgba(196, 0, 196, 0.4);
+}
+
+/* ~~~~ Deep purple card ~~~~ */
+.categoryCardBody.colorDeepPurple {
+    background: var(--colorPrimaryDark);
+}
+
+/* ~~~~ Bright magenta card ~~~~ */
+.categoryCardBody.colorMagenta {
+    background: var(--colorPrimary);
+}
+
+/* ~~~~ Soft pink card ~~~~ */
+.categoryCardBody.colorSoftPink {
+    background: var(--colorPrimaryLight);
+}
+
+/* ~~~~ Product / category image that overlaps the top of the card ~~~~ */
+.categoryCardImg {
+    position: absolute;
+    top: -60px;
+    /* ~~~~ pulls image above the card body ~~~~ */
+    left: 50%;
+    transform: translateX(-50%);
+    width: clamp(100px, 14vw, 160px);
+    height: auto;
+    object-fit: contain;
+    z-index: 2;
+    pointer-events: none;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.categoryCard:hover .categoryCardImg {
+    transform: translateX(-50%) translateY(-10px) scale(1.15);
+}
+
+.categoryCardTitle {
+    font-family: var(--fontDisplay);
+    font-size: var(--fsLg);
+    color: var(--colorWhite);
+    letter-spacing: 0.03em;
+    margin-bottom: 8px;
+}
+
+.categoryCardDesc {
+    font-size: var(--fsSm);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.categoryCardBtn {
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 28px;
+    font-family: var(--fontBody);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transition: background var(--transitionBase), color var(--transitionBase);
+}
+
+.categoryCardBtn:hover {
+    background: var(--colorAccent);
+    color: var(--colorWhite);
+}
+
+/* ~~~~ Carousel dots below category cards ~~~~ */
+.categoryDots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 20px;
+}
+
+/* Cart sidebar (right-side) - hidden by default; use .isOpen to show */
+.cartSidebar {
+    position: fixed;
+    right: 24px;
+    top: 110px;
+    width: 320px;
+    max-height: calc(100vh - 140px);
+    background: var(--colorWhite);
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+    padding: 12px;
+    z-index: 350;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transform: translateX(110%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 300ms var(--transitionBase), opacity 300ms var(--transitionBase);
+}
+
+.cartSidebar.isOpen {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.cartHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 8px;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.cartTitle {
+    font-family: var(--fontDisplay);
+    font-size: 1.15rem;
+    color: var(--colorBlack);
+}
+
+.cartItems {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 8px;
+}
+
+.cartItem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 8px;
+    padding: 6px;
+    background: rgba(0,0,0,0.02);
+}
+
+.cartItem img {
+    width: 58px;
+    height: 58px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.cartItemMeta {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.cartItemName {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.cartItemQty {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+}
+
+.cartItemQty a { color: var(--colorPrimary); text-decoration: none; padding: 4px 6px; border-radius: 4px; }
+
+.cartItemPrice { font-weight: 700; }
+
+.cartRemove { color: #c400c4; background: transparent; border: none; cursor: pointer; font-size: 0.9rem; }
+
+/* buttons used for qty and remove */
+.cartQtyInc, .cartQtyDec { background: transparent; border: 1px solid rgba(0,0,0,0.06); padding: 4px 8px; border-radius: 4px; cursor: pointer; }
+.cartQtyInc:hover, .cartQtyDec:hover { background: rgba(0,0,0,0.03); }
+
+.cartFooter {
+    margin-top: 6px;
+    padding: 8px;
+    border-top: 1px solid rgba(0,0,0,0.06);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartTotal { font-weight: 800; }
+
+.cartCheckout { color: var(--colorWhite); background: var(--colorPrimary); padding: 8px 12px; border-radius: 8px; text-decoration: none; font-weight: 700; }
+
+/* Floating cart toggle button */
+.cartToggle {
+    position: fixed;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 400;
+    width: 56px;
+    height: 56px;
+    border-radius: 999px;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cartToggleCount {
+    position: absolute;
+    right: -6px;
+    top: -6px;
+    background: #fff;
+    color: var(--colorPrimary);
+    font-weight: 800;
+    border-radius: 999px;
+    padding: 2px 6px;
+    font-size: 0.75rem;
+}
+
+@media (max-width: 900px) {
+    .cartSidebar {
+        left: 0;
+        right: 0;
+        width: 100%;
+        top: 80px;
+        max-height: calc(100vh - 80px);
+        border-radius: 0;
+        transform: translateY(110%);
+    }
+    .cartSidebar.isOpen { transform: translateY(0); }
+}
+
+.categoryDot {
+    width: 24px;
+    height: 10px;
+    border: 1.5px solid var(--colorGray500);
+    border-radius: 2px;
+    cursor: pointer;
+    background: transparent;
+    transition: border-color var(--transitionBase);
+}
+
+.categoryDot.isActive {
+    border-color: var(--colorPrimary);
+    background: var(--colorPrimaryLight);
+}
+
+/* ~~~~ Two small icon buttons bottom-right of this section ~~~~ */
+.accessoriesCornerIcons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 4px;
+    margin-top: 12px;
+}
+
+/* ~~~~ BANNER / AD ZONE — gray placeholder between sections ~~~~ */
+.bannerZone {
+    margin: 8px clamp(16px, 4vw, 48px) 0;
+    height: clamp(100px, 15vw, 160px);
+    background: var(--colorGray200);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerZonePlaceholder {
+    font-size: var(--fsSm);
+    color: var(--colorGray500);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+/* ~~~~ OUR PRODUCTS SECTION ~~~~ */
+.productsSection {
+    padding: 40px clamp(16px, 4vw, 48px) 60px;
+}
+
+.productsSectionTitle {
+    font-family: var(--fontDisplay);
+    font-size: var(--fsXl);
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+}
+
+/* ~~~~ Thin divider line below "Our Products" title ~~~~ */
+.productsTitleUnderline {
+    width: 60px;
+    height: 3px;
+    background: var(--colorPrimary);
+    margin: 0 auto 36px;
+}
+
+/* ~~~~ Sub-section label (New Arrivals / Best Sellers) ~~~~ */
+.productsSubLabel {
+    font-family: var(--fontDisplay);
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    letter-spacing: 0.04em;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+/* ~~~~ Row of product cards — 5 across on desktop ~~~~ */
+.productsRow {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+    width: 80%;
+    margin: 0 auto 40px auto;
+}
+
+/* ~~~~ Single product card ~~~~ */
+.productCard {
+    background: #f5f5f5;
+    border: none;
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    transition: transform var(--transitionBase), box-shadow var(--transitionBase);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* Add-to-cart button on product cards */
+.productAddBtn {
+    margin-top: 8px;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.18s ease;
+}
+/* removed: product card Add To Cart button styles (buttons removed) */
+
+.productCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(196, 0, 196, 0.2);
+}
+
+/* ~~~~ Product image area ~~~~ */
+.productCardImgWrap {
+    width: 100%;
+    aspect-ratio: 1 / 1.1;
+    border-radius: 24px;
+    overflow: hidden;
+    background: var(--colorWhite);
+    border: 2px solid var(--colorAccent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+}
+
+.productCardImgWrap img {
+    width: 100%;
+    height: calc(100% - 28px);
+    object-fit: contain;
+    padding: 16px;
+    transition: transform 0.4s ease;
+}
+
+.productCard:hover .productCardImgWrap img {
+    transform: scale(1.05);
+}
+
+/* ~~~~ Badge — "New Arrivals" / "Best Selling" pill ~~~~ */
+.productBadge {
+    width: 100%;
+    background: var(--colorAccent);
+    color: var(--colorWhite);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 6px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.productBadge.badgeBestSelling {
+    background: var(--colorPrimaryDark);
+}
+
+/* ~~~~ Product name ~~~~ */
+.productCardName {
+    font-family: var(--fontBody);
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--colorBlack);
+    margin-top: 4px;
+}
+
+/* ~~~~ Colors label ~~~~ */
+.productCardColorsLabel {
+    font-size: 0.85rem;
+    color: var(--colorGray500);
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+/* ~~~~ Price ~~~~ */
+.productCardPrice {
+    font-family: var(--fontBody);
+    font-size: 1.2rem;
+    color: var(--colorBlack);
+    font-weight: 700;
+    margin-top: 2px;
+}
+
+/* ~~~~ Category tag at bottom ~~~~ */
+.productCardCategory {
+    font-family: var(--fontBody);
+    font-size: 0.8rem;
+    color: var(--colorGray500);
+    font-weight: 500;
+}
+
+/* ~~~~ FOOTER ~~~~ */
+.footerSection {
+    background-color: var(--colorWhite);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerTop {
+    /* switched to white background so the huge wordmark can use a pink-violet gradient fill */
+    background: var(--colorWhite);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: clamp(60px, 12vw, 150px);
+    position: relative;
+    /* allow the huge wordmark to visually overlap the lower pink container */
+    overflow: visible;
+}
+
+.footerHugeText {
+    font-family: var(--fontDisplay);
+    /* use a single solid pink color and lower the mark so its bottom is covered */
+    color: var(--colorPrimary);
+    font-size: clamp(4rem, 16vw, 24rem);
+    line-height: 0.75;
+    margin: 0;
+    transform: translateY(18%); /* pang lower ng wordmark/brand name so it overlaps and create the effect ) */
+    letter-spacing: 0.25em; /*  */
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    white-space: nowrap; /* prevent the wordmark from breaking into multiple lines on smaller screens */
+}
+
+.footerBottom {
+    /* make the lower footer a single solid pink so it hides the lower part of the wordmark */
+    background: var(--colorPrimary);
+    padding: clamp(40px, 6vw, 80px) clamp(24px, 8vw, 100px) 24px;
+    position: relative;
+    z-index: 3;
+}
+
+.footerColumns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(30px, 4vw, 60px);
+    justify-content: space-between;
+    margin-bottom: clamp(40px, 6vw, 80px);
+}
+
+.footerColBrand {
+    flex: 1 1 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footerBrandSlogan {
+    font-family: var(--fontBody);
+    font-size: clamp(1.2rem, 2vw, 1.6rem);
+    font-weight: 700;
+    line-height: 1.1;
+    color: rgba(255,255,255,0.95);
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+.footerBrandDesc {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.9);
+    line-height: 1.4;
+    margin: 0 0 8px 0;
+    max-width: 80%;
+}
+
+.footerNewsletterLabel {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: rgba(255,255,255,0.95);
+    margin: 0;
+}
+
+.footerNewsletter {
+    display: flex;
+}
+
+.footerEmailInput {
+    background-color: rgba(255,255,255,0.12);
+    border: none;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-family: var(--fontBody);
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 240px;
+    outline: none;
+    color: var(--colorWhite);
+    transition: background-color var(--transitionBase), color var(--transitionBase);
+}
+
+.footerEmailInput:focus {
+    background-color: var(--colorGray200);
+}
+
+.footerColLinks {
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footerColTitle {
+    font-family: var(--fontBody);
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: rgba(255,255,255,0.95);
+    margin: 0 0 8px 0;
+}
+
+.footerContactText {
+    font-size: 0.95rem;
+    color: rgba(255,255,255,0.9);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.footerContactGroup {
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.9);
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.footerContactGroup strong {
+    color: var(--colorBlack);
+}
+
+.footerContactGroup a {
+    color: rgba(255,255,255,0.95);
+    transition: color var(--transitionBase);
+}
+
+.footerContactGroup a:hover {
+    color: var(--colorPrimaryLight);
+    text-decoration: underline;
+}
+
+.footerColBadge {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+}
+
+.footerCircularLogoPlaceholder {
+    width: 300px;
+    height: 300px;
+    rotate: -18deg;
+    border-radius: 50%;
+    object-fit: fill;
+    display: block;
+}
+
+.footerCopyright {
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.8);
+    font-weight: 500;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    padding-top: 24px;
+}
+
+/* ~~~~ RESPONSIVE — TABLET (max 900px) ~~~~ */
+@media (max-width: 900px) {
+    .navLinks {
+        display: none;
+    }
+
+    .navHamburger {
+        display: flex;
+    }
+
+    /* ~~~~ Hero aspect ratio relaxes on tablet ~~~~ */
+    .heroSection {
+        height: 80vh;
+        min-height: 300px;
+    }
+
+    .accessoriesGrid {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .productsRow {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* ~~~~ RESPONSIVE — MOBILE (max 600px) ~~~~ */
+@media (max-width: 600px) {
+    .navBar {
+        padding: 0 16px;
+        height: 54px;
+        margin-bottom: -54px;
+    }
+
+    .navActions {
+        display: none;
+        /* ~~~~ hide on smallest screens, only hamburger remains ~~~~ */
+    }
+
+    .heroSection {
+        height: 80vh;
+        min-height: 260px;
+    }
+
+    .heroContent {
+        padding: 16px;
+    }
+
+    .heroTitleRow {
+        margin-right: -16px;
+    }
+
+    .heroTitle {
+        font-size: clamp(2.2rem, 10vw, 3.5rem);
+    }
+
+    .heroAddress {
+        display: none;
+    
+    }
+
+    .heroPartners {
+        display: none;
+    }
+
+    .heroCornerIcons {
+        display: none;
+    }
+
+    .accessoriesGrid {
+        grid-template-columns: 1fr;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .productsRow {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .categoryCard {
+        padding-top: 0;
+    }
+
+    .categoryCardBody {
+        padding-top: 32px;
+    }
+
+    .categoryCardImg {
+        display: none;
+    }
+
+    .framingLabel {
+        display: none;
+        /* ~~~~ declutters mobile ~~~~ */
+    }
+
+    .footerColBadge {
+        justify-content: flex-start;
+    }
+}
+
+/* ~~~~ DYNAMIC PRODUCT FILTERS ~~~~ */
+.productFilters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: -10px auto 40px auto;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+.filterBtn {
+    background: transparent;
+    color: var(--colorBlack);
+    border: 2px solid var(--colorGray200);
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-family: var(--fontBody);
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filterBtn:hover {
+    border-color: var(--colorPrimary);
+    color: var(--colorPrimary);
+    transform: translateY(-2px);
+}
+
+.filterBtn.isActive {
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+    color: var(--colorWhite);
+    box-shadow: 0 8px 20px rgba(196, 0, 196, 0.3);
+}
+
+/* ~~~~ PREMIUM PRODUCT MODAL ~~~~ */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    padding: 20px;
+}
+
+.modalOverlay.isOpen {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalContent {
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 32px;
+    max-width: 1000px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+    position: relative;
+    transform: translateY(30px) scale(0.96);
+    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    display: grid;
+    grid-template-columns: 1.1fr 1.2fr;
+    gap: 36px;
+    padding: 36px;
+}
+
+.modalOverlay.isOpen .modalContent {
+    transform: translateY(0) scale(1);
+}
+
+.modalCloseBtn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background: var(--colorGray100);
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.modalCloseBtn:hover {
+    background: var(--colorAccent);
+    color: var(--colorWhite);
+    transform: rotate(90deg);
+}
+
+/* Modal Left: Images Area */
+.modalImagesArea {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modalMainImageWrap {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 24px;
+    background: var(--colorWhite);
+    border: 2px solid var(--colorGray100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 24px;
+}
+
+.modalMainImageWrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.4s ease;
+}
+
+.modalThumbnails {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.modalThumb {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    background: var(--colorWhite);
+    border: 2px solid var(--colorGray200);
+    padding: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalThumb:hover {
+    border-color: var(--colorPrimaryLight);
+    transform: translateY(-2px);
+}
+
+.modalThumb.isActive {
+    border-color: var(--colorPrimary);
+    box-shadow: 0 4px 12px rgba(196, 0, 196, 0.2);
+}
+
+.modalThumb img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Modal Right: Details Area */
+.modalDetailsArea {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.modalBadge {
+    align-self: flex-start;
+    background: var(--colorAccent);
+    color: var(--colorWhite);
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.modalTitle {
+    font-family: var(--fontDisplay);
+    font-size: 2.2rem;
+    line-height: 1.1;
+    color: var(--colorBlack);
+}
+
+.modalBrandRow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1rem;
+    color: var(--colorGray500);
+}
+
+.modalBrand {
+    font-weight: 700;
+    color: var(--colorPrimary);
+    text-transform: uppercase;
+}
+
+.modalRating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #ffb800;
+}
+
+.modalPrice {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--colorBlack);
+    margin-top: 4px;
+}
+
+.modalDescription {
+    font-size: 0.95rem;
+    color: var(--colorGray600);
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
+.modalSectionTitle {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--colorBlack);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+}
+
+.modalSizes {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.modalSizeTag {
+    border: 2px solid var(--colorGray200);
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--colorGray600);
+    background: var(--colorWhite);
+}
+
+.modalMaterials {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.modalMaterials li {
+    font-size: 0.9rem;
+    color: var(--colorGray600);
+    display: flex;
+    gap: 6px;
+}
+
+.modalMaterials strong {
+    color: var(--colorBlack);
+}
+
+.modalBuyBtn {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    border: none;
+    border-radius: 30px;
+    padding: 16px 36px;
+    font-family: var(--fontBody);
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 10px 24px rgba(196, 0, 196, 0.3);
+    transition: all 0.3s ease;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.modalBuyBtn:hover {
+    background: var(--colorAccent);
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(196, 0, 196, 0.4);
+}
+
+/* Modal Responsive Grid */
+@media (max-width: 850px) {
+    .modalContent {
+        grid-template-columns: 1fr;
+        max-height: 85vh;
+        gap: 24px;
+        padding: 24px;
+    }
+    
+    .modalTitle {
+        font-size: 1.8rem;
+    }
+}
+
+
+
+
+    
