@@ -1,0 +1,901 @@
+{
+  "Cycling Gloves": [
+    {
+      "product_name": "Trail Lightweight Glove",
+      "brand": "Rapha",
+      "price": 3700.0,
+      "rating": 4.5,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multicolour"
+      ],
+      "description": "Based on our Trail Finale Glove, but with a super-lightweight mesh back of hand material. These gloves are the pinnacle of lightweight performance and versatility for off-road riding.",
+      "key_features": [
+        "Super lightweight construction \u2013 Even lighter than the Trail Finale gloves. Protection without the bulk.",
+        "Breathability \u2013 Developed with trail and enduro pros for maximum breathability. Shred the trails without distraction.",
+        "Grip \u2013 Lightweight AX Suede palm offers exceptional grip in all conditions.",
+        "Bar feel \u2013 Cushion-free palm delivers exceptional control and a connected feel"
+      ],
+      "materials": {
+        "Synthetic fabric (back of the hand)": "82% recycled polyester, 18% elastane",
+        "Cuff": "79% recycled nylon, 21% spandex",
+        "Palm and fingertips overlay": "80% polyester, 20% polyurethane"
+      },
+      "images": [
+        "Cycling Gloves/Trail Lightweight Glove - FrontSide - Rapha (only one image of this glove).avif"
+      ],
+      "badge": "New"
+    },
+    {
+      "product_name": "Brevet Mitts",
+      "brand": "Rapha",
+      "price": 5800.0,
+      "rating": 4.5,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "description": "A hard-wearing essential, designed to maintain hand comfort during extended periods on the bars with strategic padding and integrated reflectivity.",
+      "key_features": [
+        "Strategic Palm Padding \u2013 Purposefully placed high-density padding dampens road vibrations and reduces pressure on key nerves, keeping your hands comfortable on the hoods or drops for longer",
+        "Articulated Comfort \u2013 Features reflective heat-transfer dots across the back of the hand that allow for natural stretch and movement, ensuring a non-restrictive fit during gear changes and braking",
+        "Adjustable Security \u2013 A refined Velcro fastening at the wrist provides a customisable fit and allows for easy removal, even when hands are damp or tired after a long stint",
+        "Enhanced Visibility \u2013 The reflective dot pattern on the back of the hand increases your visibility to other road users, particularly when signalling in low-light conditions",
+        "Ax-Suede Brow Wipe \u2013 A dedicated Ax-suede panel on the thumb provides a soft, absorbent surface for wiping perspiration away during high-intensity efforts"
+      ],
+      "materials": {
+        "Main": "80% Polyamide, 20% Elastane"
+      },
+      "images": [
+        "Cycling Gloves/Brevet Mitts - FrontSide (inverted)- Rapha.avif",
+        "Cycling Gloves/Brevet Mitts - FrontSide - Rapha .avif"
+      ],
+      "badge": "new"
+    },
+    {
+      "product_name": "Trail Finale Gloves",
+      "brand": "Rapha",
+      "price": 4000.0,
+      "rating": 4.5,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "description": "Lightweight and durable gloves to withstand the demands of trail riding. Developed with professional Trail & Enduro riders, so you can be confident in their performance when it matters most.",
+      "key_features": [
+        "Lightweight & Durable \u2013 Using a lightweight Cordura material across the back of hand for superior abrasion resistance with minimal bulk",
+        "Secure Grip \u2013 An AX suede palm offers exceptional grip in all conditions, keeping you confident year-round when tackling the trails",
+        "Breathability \u2013 Mesh fourchettes and moisture wicking fabrics keep your hands from getting sweaty and uncomfortable."
+      ],
+      "materials": {
+        "Cordura fabric (back of the hand)": "89% Nylon 6.6, 11% Elastane",
+        "Cuff": "79% Recycled Nylon 6, 21% Spandex",
+        "Palm and finger tips overlay": "80% Polyester, 20% Polyurethane"
+      },
+      "images": [
+        "Cycling Gloves/Trail Finale Gloves - FrontView - Rapha.avif",
+        "Cycling Gloves/Trail Finale Gloves - onModel - Rapha.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Comfort Mountain Biking Gloves 500-Khaki",
+      "brand": "Decathlon",
+      "price": 1290.0,
+      "rating": 4.6,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black with Khaki"
+      ],
+      "description": "Make your hands comfortable and tough! They cover the entire hand - a must for mountain biking. Touchscreen-compatible, pairable gloves with foam padding on the palm. Designed for mountain bike rides in warm weather lasting up to 4 hours.",
+      "key_features": [
+        "Abrasion resistance \u2013 The durable fabric won't get snagged or worn",
+        "Tactile efficiency \u2013 Touchscreen-compatible fabric (thumb and index)",
+        "User comfort \u2013 The fingers are pre-shaped and the palm is padded with foam",
+        "Moisture management \u2013 Ventilated fabric, mesh between the fingers."
+      ],
+      "materials": {
+        "Palm": "100.0% Polyester",
+        "Back fabric": "2.0% Elastane, 98.0% Polyester",
+        "Coating": "100.0% Polyurethane",
+        "Thumb": "100.0% Polyester",
+        "Gusset": "24.0% Elastane, 76.0% Polyamide"
+      },
+      "images": [
+        "Cycling Gloves/Comfort Mountain Biking Gloves 500-Khaki - FrontView - Decathlon TRANSPARENT.png",
+        "Cycling Gloves/Comfort Mountain Biking Gloves 500-Khaki - Fingers Close View - Decathlon.avif",
+        "Cycling Gloves/Comfort Mountain Biking Gloves 500-Khaki - Palm Close View - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "RCR-F Aero Cycling Gloves-White",
+      "brand": "Decathlon",
+      "price": 1490.0,
+      "rating": 4.0,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "description": "Are you looking for lightweight and fast gloves? Look no further - these gloves embody performance for your most demanding races. Designed for the TEAM DECATHLON CMA-CGM professional cyclists. Designed for performance! Discover the RCR-F aerodynamic gloves, specially designed for cyclists seeking to optimise their performance.",
+      "key_features": [
+        "Aerodynamics \u2013 Glove component tested and selected after wind tunnel testing.",
+        "Traction \u2013 The very thin palm ensures a good grip on the handlebar and reduces friction.",
+        "Stretch \u2013 Stretch component to adapt to different body types"
+      ],
+      "materials": {
+        "Main fabric": "24.0% Elastane, 76.0% Polyester",
+        "Palm": "8.0% Elastane, 92.0% Polyester"
+      },
+      "images": [
+        "Cycling Gloves/RCR-F Aero Cycling Gloves-White - Front View - Decathlon TRANSPARENT.png",
+        "Cycling Gloves/RCR-F Aero Cycling Gloves-White - CloseUp - Decathlon.avif",
+        "Cycling Gloves/RCR-F Aero Cycling Gloves-White - PalmView - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "100 Breathable Mountain Bike Gloves",
+      "brand": "Decathlon",
+      "price": 690.0,
+      "rating": 4.7,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "description": "These breathable gloves will keep your hands comfortable and they're so light you'll forget you've even got them on when you go out for a ride. Designed for Mountain biking excursions / Bikepacking / gravel riding in warm weather",
+      "key_features": [
+        "Moisture management \u2013 Airy fabric, mesh between the fingers",
+        "User comfort \u2013 3-mm foam reinforcement at the palm",
+        "Grip \u2013 Material on the palm and silicone on the fingers designed for good control"
+      ],
+      "materials": {
+        "Palm": "8.0% Elastane, 92.0% Polyester",
+        "Back of the hand": "16.0% Elastane, 84.0% Polyester",
+        "Inner fabric": "100.0% Polyester",
+        "Yoke": "100.0% Polyester",
+        "Coating": "100.0% Polyurethane"
+      },
+      "images": [
+        "Cycling Gloves/100 Breathable Mountain Bike Gloves - FrontView - Decathlon TRANSPARENT.png",
+        "Cycling Gloves/100 Breathable Mountain Bike Gloves - FingerView - Decathlon.avif",
+        "Cycling Gloves/100 Breathable Mountain Bike Gloves - PalmView - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Road Cycling Gloves 900",
+      "brand": "Decathlon",
+      "price": 600.0,
+      "rating": 4.6,
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "description": "XRD frees athletes of rigid, bulky, and constricting padding while it still absorbs more than 90% of energy when impacted at high strain rates. Engineered to withstand the most extreme conditions! Road bike gloves for all of your summer rides.",
+      "key_features": [
+        "Cushioning \u2013 Inserts made of Poron Xrd foam on the palm of the gloves.",
+        "User comfort \u2013 Adjustable thanks to the rip-tab strips to adjust the tightness at the wrist.",
+        "Easy dressing \u2013 2 lugs on the back of the ring and middle fingers to make them easy to remove.",
+        "Breathability \u2013 Mesh fabric to allow air to circulate more easily."
+      ],
+      "materials": {
+        "Palm": "100.0% Polyamide",
+        "Coating": "100.0% Polyurethane",
+        "Back of the hand": "16.0% Elastane, 84.0% Polyester",
+        "Yoke": "24.0% Elastane, 76.0% Polyamide",
+        "Thumb": "6.0% Elastane, 94.0% Polyester"
+      },
+      "images": [
+        "Cycling Gloves/Road Cycling Gloves 900 - Front View - Decathlon TRANSPARENT.png",
+        "Cycling Gloves/Road Cycling Gloves 900 - PalmView - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Mountain Bike Gloves Race Grip",
+      "brand": "Decathlon",
+      "price": 1290.0,
+      "rating": 4.7,
+      "sizes": [
+        "M",
+        "2XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "description": "The gloves worn by the Rockrider Ford Racing Team. Very lightweight gloves designed for XC mountain biking. Silicone components guarantee a good grip on the handlebars. Designed for XC mountain biking in training or competition",
+      "key_features": [
+        "Grip \u2013 Numerous silicone bands guarantee an excellent grip on the handlebars",
+        "Tactile efficiency \u2013 Kevlar thread for using your GPS without removing the gloves",
+        "Moisture management \u2013 Excellent perspiration wicking and quick-drying",
+        "Quick drying \u2013 Cloth for wiping away sweat during your most intensive rides"
+      ],
+      "materials": {
+        "Palm": "8.0% Elastane, 92.0% Polyester",
+        "Back fabric": "13.0% Elastane, 87.0% Polyester",
+        "Gusset": "24.0% Elastane, 76.0% Polyamide",
+        "Thumb": "100.0% Polyester"
+      },
+      "images": [
+        "Cycling Gloves/Mountain Bike Gloves Race Grip - Front View - Decathlon.png",
+        "Cycling Gloves/Mountain Bike Gloves Race Grip - onModel - Decathlon.avif"
+      ],
+      "badge": ""
+    }
+  ],
+  "Cycling Helmets": [
+    {
+      "product_name": "POC Ventral Air",
+      "brand": "Decathlon",
+      "price": 22000.0,
+      "rating": 5.0,
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Green Grey"
+      ],
+      "description": "POC technology meets Rapha style in a lightweight, aerodynamic and well ventilated Mips helmet, made for hot days and big efforts",
+      "key_features": [
+        "Highly ventilated \u2013 Large vents and interior channels keep air flowing",
+        "Mips Integra protection \u2013 Reduces the risk of brain injury from rotational impacts",
+        "EPS liner \u2013 Reduces forces in a direct impact",
+        "Adjustable fit \u2013 360\u00b0 fit system delivers secure, precise comfort",
+        "Aerodynamic optimised \u2013 22\u00b0 trailing edge and CFD tested design",
+        "Store sunglasses \u2013 High-friction pads secure sunglasses when not being worn"
+      ],
+      "materials": {
+        "Shell": "100.0% Polycarbonate",
+        "Lining": "100.0% Polycarbonate",
+        "Buckles": "100.0% Polyoxymethylene",
+        "Foam": "100.0% Polyurethane",
+        "Webbing": "100.0% Polypropylene"
+      },
+      "images": [
+        "Cycling Helmets/POC Ventral Air - BackView - Rapha.avif",
+        "Cycling Helmets/POC Ventral Air - FrontView - Rapha.avif",
+        "Cycling Helmets/POC Ventral Air - SideView - Rapha.avif",
+        "Cycling Helmets/POC Ventral Air - TopView - Rapha.avif",
+        "Cycling Helmets/POC Ventral Air - onModel - Rapha.avif",
+        "Cycling Helmets/POC Ventral Air - onModelFront - Rapha.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "POC Ventral Air WHITE",
+      "brand": "Decathlon",
+      "price": 22000.0,
+      "rating": 5.0,
+      "sizes": [
+        "S",
+        "M"
+      ],
+      "colors": [
+        "Pearl White"
+      ],
+      "description": "POC technology meets Rapha style in a lightweight, aerodynamic and well ventilated Mips helmet, made for hot days and big efforts",
+      "key_features": [
+        "Highly ventilated \u2013 Large vents and interior channels keep air flowing",
+        "Mips Integra protection \u2013 Reduces the risk of brain injury from rotational impacts",
+        "EPS liner \u2013 Reduces forces in a direct impact",
+        "Adjustable fit \u2013 360\u00b0 fit system delivers secure, precise comfort",
+        "Aerodynamic optimised \u2013 22\u00b0 trailing edge and CFD tested design",
+        "Store sunglasses \u2013 High-friction pads secure sunglasses when not being worn"
+      ],
+      "materials": {
+        "Shell": "100.0% Polycarbonate",
+        "Lining": "100.0% Polycarbonate",
+        "Buckles": "100.0% Polyoxymethylene",
+        "Foam": "100.0% Polyurethane",
+        "Webbing": "100.0% Polypropylene"
+      },
+      "images": [
+        "Cycling Helmets/POC Ventral Air WHITE - BackView - Rapha.avif",
+        "Cycling Helmets/POC Ventral Air WHITE - TopView - Rapha.avif",
+        "Cycling Helmets/POC Ventral Air WHITE- FrontView - Rapha.avif",
+        "Cycling Helmets/POC Ventral Air WHITE- onModel - Rapha.avif",
+        "Cycling Helmets/POC Ventral Air WHITE- onModelFront - Rapha.avif",
+        "Cycling Helmets/POC Ventral Air WHTE - SideView -  Rapha.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Mountain Bike Helmet EXPL 540",
+      "brand": "Decathlon",
+      "price": 2990.0,
+      "rating": 4.8,
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Grey Blue"
+      ],
+      "description": "The EXPL540 MIPS mountain bike helmet is the most affordable MIPS model in our range. Combining safety and comfort, it offers advanced protection against oblique impacts thanks to MIPS technology. Designed for MTB, the EXPL540 MIPS helmet is also suitable for cyclists looking for a lightweight, well-ventilated helmet for rides on trails and paths.",
+      "key_features": [
+        "Impact protection \u2013 Certified EN 1078. Equipped with MIPS: for better absorption of oblique impacts",
+        "Adjustable \u2013 Adjustable strap length. 3D adjustment dial",
+        "Ventilation \u2013 17 vents for ventilation during ascents. Quick-drying absorbent foam.",
+        "Lightweight \u2013 Size M: 335g, Size L: 365 g"
+      ],
+      "materials": {
+        "Shell": "100.0% Polycarbonate",
+        "Lining": "100.0% Polycarbonate",
+        "Buckles": "100.0% Polyoxymethylene",
+        "Foam": "100.0% Polyurethane",
+        "Webbing": "100.0% Polypropylene"
+      },
+      "images": [
+        "Cycling Helmets/Mountain Bike Helmet EXPL 540 - AngledView - Decathlon TRANSPARENT.png",
+        "Cycling Helmets/Mountain Bike Helmet EXPL 540 - BackView - Decathlon.avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL 540 - FrontView - Decathlon.avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL 540 - SideView - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Road Cycling Helmet RCR",
+      "brand": "Decathlon",
+      "price": 4990.0,
+      "rating": 4.8,
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "colors": [
+        "White Pink"
+      ],
+      "description": "This helmet was designed so that the ventilation works perfectly when you need it, on long climbs. As soon as you tip upwards, the aerodynamics of this helmet will make all the difference. Designed for your sport rides. Lightweight and ventilated, this is the helmet of the Decathlon CMA CGM team for mountain racing.",
+      "key_features": [
+        "Impact protection \u2013 EN 1078 certified Equipped with Mips\u00ae AIR better absorption of oblique impacts",
+        "Ventilation \u2013 8 air entrances connected to 7 exits via canals",
+        "Anatomic design \u2013 Turn-ring system for a micrometric adjustment. Occipital adjustment",
+        "Aerodynamics \u2013 Developed and tested in a wind tunnel to minimise its drag coefficient"
+      ],
+      "materials": {
+        "Main lining": "100.0% Polystyrene",
+        "Shell": "100.0% Polycarbonate",
+        "Padding": "100.0% Polyurethane",
+        "Webbing": "100.0% Polyester",
+        "Secondary lining": "100.0% Polyurethane"
+      },
+      "images": [
+        "Cycling Helmets/Road Cycling Helmet RCR - AngledBackView - Decathlon TRANSPARENT.png",
+        "Cycling Helmets/Road Cycling Helmet RCR - AngledView - Decathlon.avif",
+        "Cycling Helmets/Road Cycling Helmet RCR - BackView - Decathlon.avif",
+        "Cycling Helmets/Road Cycling Helmet RCR - SideView - Decathlon.avif",
+        "Cycling Helmets/Road Cycling Helmet RCR - TopView - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Mountain Bike Helmet EXPL 50",
+      "brand": "Decathlon",
+      "price": 730.0,
+      "rating": 4.6,
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "description": "Protect yourself from branches and impacts. It is easy to position, with two buckles under the ears and one under the chin. It has 15 vents. Designed for your first rides.",
+      "key_features": [
+        "User comfort \u2013 Removable foam padding",
+        "Ventilation \u2013 15 ventilation channels",
+        "Stability \u2013 Adjust the helmet using the 2 buckles under the ears and one under the chin",
+        "Adjustable \u2013 Tightening knob",
+        "Impact protection \u2013 Complies with EN 1078."
+      ],
+      "materials": {
+        "Protection cover": "60.0% Polystyrene, 40.0% Polycarbonate",
+        "Foam": "60.0% Polyurethane, 40.0% Polyester",
+        "Webbing": "100.0% Polypropylene"
+      },
+      "images": [
+        "Cycling Helmets/Mountain Bike Helmet EXPL 50 - AngledView - Decathlon TRANSPARENT.png",
+        "Cycling Helmets/Mountain Bike Helmet EXPL 50 - SideView - Decathlon.avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL 50 - SideViewRight - Decathlon.avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL 50 - TopView - Decathlon.avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL 50 - onModel - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "RoadR 500 Road Cycling Helmet",
+      "brand": "Decathlon",
+      "price": 1990.0,
+      "rating": 4.8,
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Neon Green"
+      ],
+      "description": "Optimal for cyclists looking for compact, well-ventilated helmet with a comfortable adjustment system. New variation of Aerofit 900 helmet with a brand new adjustment system that makes the helmet extremely comfortable.",
+      "key_features": [
+        "Ventilation \u2013 The helmet's grille and inner channels facilitate continuous air flow.",
+        "Easy dressing \u2013 new turn-ring system developed by our teams of engineers.",
+        "Compatibility \u2013 compatible with our ViooClip lights.",
+        "Anatomic design \u2013 Ponytail-compatible turn ring"
+      ],
+      "materials": {
+        "Shell": "100.0% Polycarbonate",
+        "Buckles": "100.0% Polyoxymethylene",
+        "Foam": "100.0% Polyurethane",
+        "Webbing": "100.0% Polyamide"
+      },
+      "images": [
+        "Cycling Helmets/RoadR 500 Road Cycling Helmet - AngledView - Decathlon TRANSPARENT.png",
+        "Cycling Helmets/RoadR 500 Road Cycling Helmet - BackView - Decathlon.avif",
+        "Cycling Helmets/RoadR 500 Road Cycling Helmet - FrontView - Decathlon.avif",
+        "Cycling Helmets/RoadR 500 Road Cycling Helmet - SideViewLeft - Decathlon.avif",
+        "Cycling Helmets/RoadR 500 Road Cycling Helmet - SideViewRight - Decathlon.avif",
+        "Cycling Helmets/RoadR 500 Road Cycling Helmet - TopView - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "City Cycling Helmet 500",
+      "brand": "Decathlon",
+      "price": 1490.0,
+      "rating": 4.7,
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Cream"
+      ],
+      "description": "This ventilated, comfortable helmet easy adapts to the shape of your head using its adjustment dial. Compatible with VIOO clip bike lights (model 8487105) for added visibility. Protective head gear while occasionally city riding with your bike.",
+      "key_features": [
+        "Visibility \u2013 Reflective strips. Compatible with Clip lighting.",
+        "Ventilation \u2013 11 air vents located at the front, back and top of the helmet"
+      ],
+      "materials": {
+        "Main lining": "100.0% Polystyrene",
+        "Shell": "100.0% Polycarbonate",
+        "Buckles": "100.0% Polyacrylate",
+        "Foam": "100.0% Polyurethane",
+        "Webbing": "100.0% Polypropylene"
+      },
+      "images": [
+        "Cycling Helmets/City Cycling Helmet 500 - AngledView - Decathlon.avif",
+        "Cycling Helmets/City Cycling Helmet 500 - BackView - Decathlon.avif",
+        "Cycling Helmets/City Cycling Helmet 500 - TopAngledView - Decathlon.avif",
+        "Cycling Helmets/City Cycling Helmet 500 - TopView - Decathlon.avif",
+        "Cycling Helmets/City Cycling Helmet 500 - onModel1 - Decathlon.avif",
+        "Cycling Helmets/City Cycling Helmet 500 - onModel2 - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Mountain Bike Helmet EXPL 500_Faded Blue",
+      "brand": "Decathlon",
+      "price": 1990.0,
+      "rating": 4.8,
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Faded Blue"
+      ],
+      "description": "The EXPL500 mountain bike helmet is the most versatile model in our range. Combining safety, comfort and style, it will be your companion on all your adventures. Designed for bike rides lasting over 2 hours.",
+      "key_features": [
+        "Impact protection \u2013 Certifications: EN 1078",
+        "Ventilation \u2013 17 vents for ventilation during ascents.",
+        "Adjustable \u2013 3D tightening wheel. Adjustable strap length.",
+        "Compatibility \u2013 Compatible with bike light 8487105. Built-in attachment system",
+        "Ease of use \u2013 Fixed side straps. Quick and easy to pull your pony tail through."
+      ],
+      "materials": {
+        "Foam": "100.0% Polystyrene",
+        "Shell": "100.0% Polycarbonate",
+        "Buckles": "100.0% Polyoxymethylene",
+        "Webbing": "100.0% Polyester"
+      },
+      "images": [
+        "Cycling Helmets/Mountain Bike Helmet EXPL 500_Faded Blue - AngledView - Decathlon TRANSPARENT.png",
+        "Cycling Helmets/Mountain Bike Helmet EXPL 500_Faded Blue - BackView - Decathlon.avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL 500_Faded Blue - CloseAngledView - Decathlon.avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL 500_Faded Blue - TopView - Decathlon.avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL 500_Faded Blue - onModel - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Mountain Bike Helmet EXPL100",
+      "brand": "Decathlon",
+      "price": 1290.0,
+      "rating": 4.8,
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Deep Blue"
+      ],
+      "description": "Comfy and light, this helmet protects your head from branches and shocks. Bonus features: 9 wide vents and an adjustment dial. Designed for mountain bike rides of up to 2 hours.",
+      "key_features": [
+        "Impact protection \u2013 Certifications: EN 1078",
+        "Ventilation \u2013 9 vents for ventilation during ascents.",
+        "Adjustable \u2013 Adjust the helmet to your head using the adjustment dial.",
+        "Ease of use \u2013 Adjustable side straps"
+      ],
+      "materials": {
+        "Shell": "100.0% Acrylonitrile Butadiene Styrene",
+        "Foam": "100.0% Polystyrene",
+        "Webbing": "100.0% Polyester",
+        "Buckles": "100.0% Polyoxymethylene"
+      },
+      "images": [
+        "Cycling Helmets/Mountain Bike Helmet EXPL100 - AngledView - Decathlon TRANSPARENT.png",
+        "Cycling Helmets/Mountain Bike Helmet EXPL100 - AngledView - Decathlon.avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL100 - AngledViewLeft - Decathlon(1).avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL100 - AngledViewLeft - Decathlon.avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL100 - BackView - Decathlon(1).avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL100 - BackView - Decathlon.avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL100 - TopView - Decathlon(1).avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL100 - TopView - Decathlon.avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL100 - inModel - Decathlon(1).avif",
+        "Cycling Helmets/Mountain Bike Helmet EXPL100 - inModel - Decathlon.avif"
+      ],
+      "badge": ""
+    }
+  ],
+  "Glasses Product": [
+    {
+      "product_name": "Fuori Glasses",
+      "brand": "Rapha",
+      "price": 12880.0,
+      "rating": 4.5,
+      "sizes": [
+        "UNIQUE/58cm/ 31cm / 148cm"
+      ],
+      "colors": [
+        "White/Pink Blue Lens"
+      ],
+      "description": "Premium frameless riding glasses designed to offer maximum visibility and comfort on high-tempo training rides and road races.",
+      "key_features": [
+        "Visibility \u2013 Frameless design features a one-piece shield lens for an expanded and clear field of view, providing maximum visibility",
+        "Clarity \u2013 Contrast-enhancing lens technology helps identify hazards and adapt to changes in terrain and light conditions",
+        "Light weight \u2013 Frameless design achieves minimal weight and \"barely there\" feel"
+      ],
+      "materials": {
+        "Grippers": "MEGOL\u2122",
+        "Lens": "Polycarbonate"
+      },
+      "images": [
+        "Glasses Product/Fuori Glasses - AngledView - Rapha.avif",
+        "Glasses Product/Fuori Glasses - Front - Rapha.avif",
+        "Glasses Product/Fuori Glasses - SideView - Rapha.avif",
+        "Glasses Product/Fuori Glasses - onModel - Rapha.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Reis Glasses",
+      "brand": "Rapha",
+      "price": 16200.0,
+      "rating": 4.5,
+      "sizes": [
+        "Unique/58cm/ 31cm / 148cm"
+      ],
+      "colors": [
+        "Smoke / Photochromic"
+      ],
+      "description": "High-performance half-framed cycling glasses featuring a wide field of vision, photochromic lens adaptability, and robust UV protection.",
+      "key_features": [
+        "Photochromic \u2013 A lens that adapts to variations in light intensity",
+        "Awareness \u2013 Freeform one-piece shield lens extends your field of vision",
+        "Clarity \u2013 Contrast-enhancing lens technology helps identify hazards and adapt to changes in terrain and light conditions. Lenses are interchangeable.",
+        "Stability \u2013 Half-framed design for stable fit and lens interchangeability",
+        "Versatility \u2013 Work with a range of face shapes. Find out more about fit in our Lens and Fit Guide",
+        "Protection \u2013 Shield design protects from UV, wind and road spray"
+      ],
+      "materials": {
+        "Frame": "High-strength Rilsan\u00ae G820 Rnew\u00ae high performance polymer (62% biobased)",
+        "Grippers": "MEGOL\u2122",
+        "Lens": "Polycarbonate"
+      },
+      "images": [
+        "Glasses Product/Reis Glasses - Photochromic - AngledView - Rapha.avif",
+        "Glasses Product/Reis Glasses - Photochromic - Front - Rapha.avif",
+        "Glasses Product/Reis Glasses - Photochromic - SideView - Rapha.avif",
+        "Glasses Product/Reis Glasses - Photochromic - onModel - Rapha.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Letras Glasses",
+      "brand": "Rapha",
+      "price": 15000.0,
+      "rating": 4.5,
+      "sizes": [
+        "Unique/ 58cm/ 31cm / 148cm"
+      ],
+      "colors": [
+        "Sedona Sage / Yellow"
+      ],
+      "description": "Sleek, lightweight, and frameless cycling glasses engineered for excellent visibility, ventilation, and premium eye protection on demanding rides.",
+      "key_features": [
+        "Awareness \u2013 Frameless freeform shield lens for an extended field of vision",
+        "Clarity \u2013 Proprietary contrast-enhancing lens technology helps hazard perception and adapt to variations in terrain and light conditions",
+        "Super lightweight \u2013 Frameless design and materials provides weightless feel",
+        "Versatility \u2013 Work with a range of face shapes, find out more about fit in our Eyewear Guide",
+        "Breathability \u2013 Strategically placed ventilation and airflow",
+        "Protection \u2013 Freeform shield design offers increased protection from UV rays, road spray and debris"
+      ],
+      "materials": {
+        "Frame": "High-strength Rilsan\u00ae G820 Rnew\u00ae high performance polymer (62% biobased)",
+        "Grippers": "MEGOL\u2122",
+        "Lens": "Polycarbonate"
+      },
+      "images": [
+        "Glasses Product/Letras Glasses - AngledView - Rapha.avif",
+        "Glasses Product/Letras Glasses - FrontView - Rapha.avif",
+        "Glasses Product/Letras Glasses - SideView - Rapha.avif",
+        "Glasses Product/Letras Glasses - onModel - Rapha.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Sestri Glasses",
+      "brand": "Rapha",
+      "price": 13100.0,
+      "rating": 4.0,
+      "sizes": [
+        "56cm/35cm/ 140cm"
+      ],
+      "colors": [
+        "Dark Navy/Purple Green Lens"
+      ],
+      "description": "Full-framed cycling glasses built for stability and secure fit during high-intensity efforts, formerly known as Pro Team Full Frame Glasses.",
+      "key_features": [
+        "Clarity \u2013 Contrast-enhancing lens technology helps identify hazards and adapt to changes in terrain and light conditions",
+        "Stability \u2013 Full-framed design for stability and security during efforts and lens interchangeability"
+      ],
+      "materials": {
+        "Frame": "Grilamid TR90",
+        "Grippers": "MEGOL\u2122",
+        "Lens": "Polycarbonate"
+      },
+      "images": [
+        "Glasses Product/Sestri Glasses - AngledView - Rapha.avif",
+        "Glasses Product/Sestri Glasses - FrontView - Rapha.avif",
+        "Glasses Product/Sestri Glasses - SideView - Rapha.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Rallar Glasses",
+      "brand": "Rapha",
+      "price": 14000.0,
+      "rating": 4.3,
+      "sizes": [
+        "58cm/ 31cm / 148cm"
+      ],
+      "colors": [
+        "Dark Navy/Purple Green Lens"
+      ],
+      "description": "Half-framed trail glasses offering a clear view of the road, stable hold, and a removable security strap around the neck. Formerly known as Explore Glasses.",
+      "key_features": [
+        "Clarity \u2013 Contrast-enhancing lens technology helps identify hazards and adapt to changes in terrain and light conditions",
+        "Stability \u2013 Half-framed design for stability, clear view of the trail and lens interchangeability",
+        "Versatility \u2013 Removable security strap for wearing around the neck"
+      ],
+      "materials": {
+        "Frame": "Grilamid TR90",
+        "Grippers": "MEGOL\u2122",
+        "Lens": "Polycarbonate",
+        "Strap": "Polyester"
+      },
+      "images": [
+        "Glasses Product/Rallar Glasses - AngledView - Rapha.avif",
+        "Glasses Product/Rallar Glasses - FrontView - Rapha.avif",
+        "Glasses Product/Rallar Glasses -SideView - Rapha.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Category3 Cycling Glasses",
+      "brand": "Decathlon",
+      "price": 1990.0,
+      "rating": 4.7,
+      "sizes": [
+        "No Size"
+      ],
+      "colors": [
+        "Peach Brown"
+      ],
+      "description": "Category 3 lenses that block 100% of UV rays. A frameless design offering wide coverage to protect your eyes from wind and flying debris. Perfect for racing along the road or trails at full speed on sunny days.",
+      "key_features": [
+        "Sun protection \u2013 Category 3 lens - 100% UV protection filter: Ideal for sunny weather",
+        "Coverage \u2013 Wraparound design: protects the eyes from wind, objects and the elements.",
+        "Field of vision \u2013 The single-lens design increases the field of view.",
+        "Anti-fogging \u2013 Lens vents: reduces fogging."
+      ],
+      "materials": {
+        "Frame": "20.0% Styrene Ethylene Butadiene Styrene, 80.0% Polyamide",
+        "Lens": "Polycarbonate",
+        "Screws": "Steel"
+      },
+      "images": [
+        "Glasses Product/Category3 Cycling Glasses - AngledView - Decathlon TRANSPARENT.png",
+        "Glasses Product/Category3 Cycling Glasses - FrontView - Decathlon.avif",
+        "Glasses Product/Category3 Cycling Glasses - LoweredView - Decathlon.avif",
+        "Glasses Product/Category3 Cycling Glasses - SideView - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Photochromic Cycling Glasses, Category 1-3",
+      "brand": "Decathlon",
+      "price": 2790.0,
+      "rating": 4.7,
+      "sizes": [
+        "No Size"
+      ],
+      "colors": [
+        "Gray"
+      ],
+      "description": "Lightweight, wide field of vision, and active ventilation. This model features an adaptive photochromic lens designed for high-intensity rides and changing weather conditions.",
+      "key_features": [
+        "Photochromic \u2013 Category 1 to 3 photochromic lenses: they darken based on the light intensity.",
+        "Coverage \u2013 Wraparound design: protects the eyes from wind, objects and the elements.",
+        "Lightweight \u2013 Lightweight sunglasses: 35.4 g",
+        "Anti-fogging \u2013 Lens vents: reduces fogging.",
+        "Sun protection \u2013 Category 1 to 3 photochromic lenses - full UV filter: adjusts to brightness."
+      ],
+      "materials": {
+        "Frame": "Styrene Ethylene Butadiene Styrene, Polyamide",
+        "Lens": "Polycarbonate",
+        "Screws": "Steel"
+      },
+      "images": [
+        "Glasses Product/Photochromic Cycling Glasses, Category 1-3 - AngledView - Decathlon TRANSPARENT.png",
+        "Glasses Product/Photochromic Cycling Glasses, Category 1-3 - FrontView - Decathlon.avif",
+        "Glasses Product/Photochromic Cycling Glasses, Category 1-3 - LoweredView - Decathlon.avif",
+        "Glasses Product/Photochromic Cycling Glasses, Category 1-3 - SideView - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Photochromic Cycling Glasses, TaaienPink",
+      "brand": "Decathlon",
+      "price": 3390.0,
+      "rating": 4.6,
+      "sizes": [
+        "No Size"
+      ],
+      "colors": [
+        "Reddish Pink"
+      ],
+      "description": "Dynamic lines, sleek look, XXL field of vision. These glasses offer optimal clarity and adapt to light conditions thanks to their NXT\u00ae photochromic lenses. Perfect hold, even at full speed. Designed for speed and performance.",
+      "key_features": [
+        "Sun protection \u2013 Photochromic lens category 0(1)-3 - 100% UV filter. Ideal in any weather.",
+        "Durability \u2013 Organic polyurethane lenses with exceptional impact resistance",
+        "Coverage \u2013 Wraparound design: protects the eyes from wind, objects and the elements."
+      ],
+      "materials": {
+        "Frame": "Polyamide",
+        "Lens": "Polyamide"
+      },
+      "images": [
+        "Glasses Product/Photochromic Cycling Glasses, TaaienPink - AngledView - Decathlon TRANSPARENT.png",
+        "Glasses Product/Photochromic Cycling Glasses, TaaienPink - FrontView - Decathlon.avif",
+        "Glasses Product/Photochromic Cycling Glasses, TaaienPink - SideView - Decathlon.avif",
+        "Glasses Product/Photochromic Cycling Glasses, TaaienPink - TopView - Decathlon.avif"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Equinox CE-EQNX5 Sunset",
+      "brand": "Shimano",
+      "price": 8000.0,
+      "rating": 4.5,
+      "sizes": [
+        "No Size"
+      ],
+      "colors": [
+        "Orange Sapphire with RIDESCAPE RD (Road) Lens"
+      ],
+      "description": "Featuring a lightweight half-rim frame and unique temple structure, the Equinox Eyewear offers a secure fit and exceptional performance in any riding condition. All-Day Comfort: Lightweight half-rim design crafted for on-road and off-road cycling.",
+      "key_features": [
+        "All-Day Comfort \u2013 Lightweight half-rim design crafted for on-road and off-road cycling",
+        "Secure Fit \u2013 Unique cutout temple structure and bio-based Pebax tips integrate seamlessly with helmets",
+        "Tuned Optics \u2013 RIDESCAPE Bright (BR), Road (RD), All-Road (AR), Trail (TR), and Photochromic lenses highlight surface details for enhanced visibility",
+        "Enhanced Protection \u2013 Cylindrical, wraparound lens shields eyes from wind, debris, and harsh elements",
+        "Fog-Free Ventilation \u2013 Strategically placed slits in the lens ensure airflow to reduce fogging"
+      ],
+      "materials": {
+        "Frame": "Polyamide (half-rim construction)",
+        "Temple Tips": "Bio-based Pebax",
+        "Lens": "Polycarbonate (PC)"
+      },
+      "images": [
+        "Glasses Product/Equinox CE-EQNX5 Sunset - AngledView - Shimano TRANSPARENT.png",
+        "Glasses Product/Equinox CE-EQNX5 Sunset - Front View - Shimano.webp",
+        "Glasses Product/Equinox CE-EQNX5 Sunset - SideView - Shimano.webp"
+      ],
+      "badge": ""
+    },
+    {
+      "product_name": "Equinox CE-EQNX5 Glacier",
+      "brand": "Shimano",
+      "price": 8000.0,
+      "rating": 4.5,
+      "sizes": [
+        "No Size"
+      ],
+      "colors": [
+        "Mineral Gray with RIDESCAPE AR (All Road) Lens"
+      ],
+      "description": "Featuring a lightweight half-rim frame and unique temple structure, the Equinox Eyewear offers a secure fit and exceptional performance in any riding condition. All-Day Comfort: Lightweight half-rim design crafted for on-road and off-road cycling.",
+      "key_features": [
+        "All-Day Comfort \u2013 Lightweight half-rim design crafted for on-road and off-road cycling",
+        "Secure Fit \u2013 Unique cutout temple structure and bio-based Pebax tips integrate seamlessly with helmets",
+        "Tuned Optics \u2013 RIDESCAPE Bright (BR), Road (RD), All-Road (AR), Trail (TR), and Photochromic lenses highlight surface details for enhanced visibility",
+        "Enhanced Protection \u2013 Cylindrical, wraparound lens shields eyes from wind, debris, and harsh elements",
+        "Fog-Free Ventilation \u2013 Strategically placed slits in the lens ensure airflow to reduce fogging"
+      ],
+      "materials": {
+        "Frame": "Polyamide (half-rim construction)",
+        "Temple Tips": "Bio-based Pebax",
+        "Lens": "Polycarbonate (PC)"
+      },
+      "images": [
+        "Glasses Product/Equinox CE-EQNX5 Glacier - AngledView - Shimano TRANSPARENT.png",
+        "Glasses Product/Equinox CE-EQNX5 Glacier - Front View - Shimano.webp",
+        "Glasses Product/Equinox CE-EQNX5 Glacier - SideView - Shimano.webp"
+      ],
+      "badge": ""
+    }
+  ]
+}
+

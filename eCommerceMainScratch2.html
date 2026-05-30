@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AeroWear – Biking Accessories</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Orbitron:wght@400;700;800;900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<!-- Announcement Bar sa taas (pink na customizable yung message) -->
+    <div class="announcementBar">
+        Black Friday Sale 50% Off on certain items and Deals up to 70%
+    </div>
+
+    <nav class="navBar">
+
+        <div class="navBrand">
+
+            <img class="navLogoImg" src="logoWhite.png" alt="AeroWear Logo" />
+            <span class="navBrandName">AeroWear</span>
+        </div>
+
+        <ul class="navLinks">
+            <li><a href="#aboutUs/Hero">About Us</a></li>
+            <li class="navLinkActive"><a href="#products">Our Products</a></li>
+        </ul>
+
+        <div class="navActions">
+            
+            <a href="#">Log In</a>
+        </div>
+
+        <button class="navHamburger" id="navHamburger" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </nav>
+
+    <div class="navMobileMenu" id="navMobileMenu">
+        <a href="#aboutUs/Hero">About Us</a>
+        <a href="#products">Our Products</a>
+    
+        <a href="#">Log In</a>
+    </div>
+
+    <section class="heroSection" id="aboutUs/Hero">
+        <div class="bigLogo">
+            <img class="bigLogoImg" src="logoWhite.png" alt="AeroWear Logo" />
+
+        </div>
+<!--CAROUSEL FOR OUR HEROO SECTION -->
+        <div class="heroCarouselTrack" id="heroCarouselTrack">
+<!-- IMPORTANT! DITO YUNG SA VID NATIN, DONT TAMPER SA SRC hehe -->
+            <div class="heroSlide"> 
+                <video autoplay loop muted playsinline class="heroVideo">
+                    <source src="videoplayback.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="heroSlide">
+                <img src="bannerBike1.png" alt="Banner of A bike 1" />
+            </div>
+
+            <div class="heroSlide">
+                <img src="banner3.jpg" alt="Banner of A bike 2" />
+            </div>
+
+        </div>
+
+        <div class="heroGradientOverlay"></div>
+
+        <div class="heroContent">
+
+            <span class="heroTagline">
+                <b> "Feel The Air As You Thread Through The Roads"</b>
+                <br> EST 2020 – 2026
+            </span>
+
+            <div class="heroTitleRow">
+                <h1 class="heroTitle">AERO<br>WEAR</h1>
+                <div class="heroLineRightContainer">
+                    <div class="heroLineRight"></div>
+
+                </div>
+
+            </div>
+            <p class="heroSubtitle">Biking Accessories</p>
+            <p class="heroDescription">Trusted Premium Biking Accessories and Gears Retailer Since 2020</p>
+
+            <a href="#products" class="heroBtn">View Deals ✦</a>
+
+
+        </div>
+
+        <p class="heroAddress">Main Store located at McArthur Highway, Dau, Mabalacat City</p>
+
+        <div class="heroPartners">
+
+            <p class="heroPartnersLabel">Partner Brands</p>
+            <div class="heroPartnerLogos">
+                <img src="decathlon-seeklogo.png" alt="Partner 1" class="heroPartnerLogo" />
+                <img src="shimano-logo-png-transparentResized.png" alt="Partner 2" class="heroPartnerLogo" />
+                <img src="SMR_logo_Black.png" alt="Partner 3" class="heroPartnerLogo" />
+                <img src="rapha-seeklogo.png" alt="Partner 4" class="heroPartnerLogo" />
+            </div>
+        </div>
+
+        <button class="heroArrow heroArrowPrev" id="heroArrowPrev" aria-label="Previous slide">&#8592;</button>
+        <button class="heroArrow heroArrowNext" id="heroArrowNext" aria-label="Next slide">&#8594;</button>
+
+        <div class="heroCarouselControls" id="heroCarouselControls">
+
+        </div>
+
+    </section>
+
+    <div class="framingDivider">
+        <img src="MicrographicsAsteroidLineResizedLongLeft2.png" alt="lining" class="framingLabel" />
+
+
+        <div class="framingSectionTitle">
+            <span class="framingArrow"></span>
+            Biking Accessories
+            <span class="framingArrowRight"></span>
+        </div>
+
+        <img src="MicrographicsAsteroidLineResizedLongRight2.png" alt="lining" class="framingLabel" />
+    </div>
+
+    <section class="accessoriesSection">
+
+        <div class="accessoriesGrid">
+
+            <div class="categoryCard">
+                <img class="categoryCardImg" src="glasses(4).png" alt="Bikewear Gears" />
+                <div class="categoryCardBody colorDeepPurple">
+                    <h3 class="categoryCardTitle">Cycling Glasses</h3>
+                    <p class="categoryCardDesc">High Quality Stylish Safety Cycling Glasses</p>
+                    <button class="categoryCardBtn">View Deals</button>
+                </div>
+            </div>
+
+            <div class="categoryCard">
+                <img class="categoryCardImg" src="neon_orange___furion-3 (1).png" alt="Helmets" />
+                <div class="categoryCardBody colorMagenta">
+                    <h3 class="categoryCardTitle">Helmets</h3>
+                    <p class="categoryCardDesc">S Grade Safety and Stylish Helmets for all your needs</p>
+                    <button class="categoryCardBtn">View Deals</button>
+                </div>
+            </div>
+
+            <div class="categoryCard">
+                <img class="categoryCardImg" src="gloves3.png" alt="Gloves" />
+                <div class="categoryCardBody colorSoftPink">
+                    <h3 class="categoryCardTitle">Cycling Gloves</h3>
+                    <p class="categoryCardDesc">High Quality Stylish Leather Cycling Gloves</p>
+                    <button class="categoryCardBtn">View Deals</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="framingDivider">
+        <img src="MicrographicsAsteroidLineResizedLongLeft2.png" alt="lining" class="framingLabel" />
+        <span></span>
+        <img src="MicrographicsAsteroidLineResizedLongRight2.png" alt="lining" class="framingLabel" />
+    </div>
+
+        <img src="AeroWearCustomBannerLonger2.png" alt="Promotional Banner Placeholder" class="bannerZoneImg" />
+
+    <section class="productsSection" id="products">
+
+        <h2 class="productsSectionTitle">Our Products</h2>
+        <div class="productsTitleUnderline"></div>
+
+        <div class="productFilters" id="productFilters">
+            <button class="filterBtn isActive" data-category="All">All Accessories</button>
+            <button class="filterBtn" data-category="Glasses Product">Cycling Glasses</button>
+            <button class="filterBtn" data-category="Cycling Helmets">Helmets</button>
+            <button class="filterBtn" data-category="Cycling Gloves">Cycling Gloves</button>
+        </div>
+
+        <div class="productsRow" id="dynamicProductsGrid">
+        </div>
+
+    </section>
+
+    <footer class="footerSection">
+        <div class="footerTop">
+            <h2 class="footerHugeText">AERO WEAR</h2>
+        </div>
+        <div class="footerBottom">
+            <div class="footerColumns">
+
+                <div class="footerColBrand">
+                    <h3 class="footerBrandSlogan">"Feel The Air As You<br>Thread Through The Roads"</h3>
+                    <p class="footerBrandDesc">Trusted Premium Biking Accessories and Gears Retailer Since 2020</p>
+
+                    <p class="footerNewsletterLabel">Enter the Aero Wear Journal</p>
+                    <div class="footerNewsletter">
+                        <input type="email" placeholder="type your email" class="footerEmailInput"
+                            aria-label="Email for newsletter" />
+                    </div>
+                </div>
+
+                <div class="footerColLinks">
+                    <h4 class="footerColTitle">Location</h4>
+                    <p class="footerContactText">Main Store located at<br>McArthur Highway, Dau,<br>Mabalacat City</p>
+                </div>
+
+                <div class="footerColLinks">
+                    <h4 class="footerColTitle">Contact Us</h4>
+                    <div class="footerContactGroup">
+                        <strong>Benj Moedillas</strong><br>
+                        09276495698<br>
+                        <a href="mailto:BenjTheGuy@gmail.com">BenjTheGuy@gmail.com</a>
+                    </div>
+                    <div class="footerContactGroup">
+                        <strong>Jonathan Ladisla</strong><br>
+                        09629266849<br>
+                        <a href="mailto:JonathanLadisla@gmail.com">JonathanLadisla@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="footerColBadge">
+                    <img src="logoWhite.png" alt="Circular Logo Placeholder"
+                        class="footerCircularLogoPlaceholder" />
+                </div>
+
+            </div>
+
+            <div class="footerCopyright">
+                © 2026 Aero Wear. Feel The Air As You Thread Through The Roads.
+            </div>
+        </div>
+    </footer>
+
+    <div class="modalOverlay" id="productModal">
+        <div class="modalContent" id="modalContent">
+        </div>
+    </div>
+
+    <aside id="cartSidebar" class="cartSidebar" aria-live="polite">
+        <div class="cartHeader">
+            <h3 class="cartTitle">Your Cart</h3>
+            <div class="cartSummary">(<span id="cartCount">0</span>)</div>
+        </div>
+
+        <div id="cartItems" class="cartItems"></div>
+
+        <div class="cartFooter">
+            <div class="cartTotal">Total: ₱ <span id="cartTotal">0.00</span></div>
+            <a href="#" id="cartCheckout" class="cartCheckout">Checkout</a>
+        </div>
+    </aside>
+
+    <button id="cartToggle" class="cartToggle" aria-label="Open cart">
+        <span class="cartToggleIcon">🛒</span>
+        <span id="cartToggleCount" class="cartToggleCount">0</span>
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
